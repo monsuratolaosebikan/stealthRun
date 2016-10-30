@@ -9750,3 +9750,36 @@ a.button {
 #sampleMap {
   width: 100%;
   height: auto; }
+
+#challengePhoto {
+  height: 45%;
+  width: auto;
+  border: 5px solid;
+  border-radius: 50%; }
+
+#meetSpacer {
+  height: 1%; }
+
+#topPanel {
+  height: 44%;
+  background-color: darkgrey;
+  border-radius: 2%; }
+
+#bottomPanel {
+  height: 44%;
+  background-color: dimgrey;
+  border-radius: 2%; }
+
+#meetChallenger-button33 {
+  width: 100%; }
+
+#intSpacer {
+  height: 15%; }
+
+div h2, h3 {
+  color: aliceblue; }
+
+#page2 {
+  background-image: url(https://s-media-cache-ak0.pinimg.com/236x/15/43/83/1543835fc6e8dcf98aff0a64d85f5c3c.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%; }
