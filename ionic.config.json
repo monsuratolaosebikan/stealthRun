@@ -1,6 +1,6 @@
 {
   "name": "stealthrun",
-  "app_id": "",
+  "app_id": "2fc22b07",
   "gulpStartupTasks": [
     "sass",
     "watch"

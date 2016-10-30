@@ -10,13 +10,15 @@
 }
 
 #PounceProfile {
-    border: 5px solid;
-    border-radius: 50%;
-    width: 60%;
+    border: 5px solid white;
+    border-radius: 10%;
+    width: 250px;
+    height: 200px;
+    margin-top: 80px;
 }
 
 #SpaceHome {
-    height: 60px;
+    height: 90px;
 }
 
 #map {
@@ -31,7 +33,7 @@
 
 #challengePhoto {
     height: 45%;
-    width: auto;   
+    max-width: 125px;   
     border: 5px solid;
     border-radius: 50%;
 }
@@ -63,13 +65,18 @@
     height: 15%
 }
 
-div h2, h3 {
+#SpaceHome div h2, h3 {
     color: aliceblue;
 }
 
 #page2 {
-    background-image: url(https://s-media-cache-ak0.pinimg.com/236x/15/43/83/1543835fc6e8dcf98aff0a64d85f5c3c.jpg);
+    background-image: url(https://static.pexels.com/photos/9718/wood-nature-walking-dark-large.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     
+}
+
+#blackTint {
+    //background-color: black;
+    //opacity: 0.5;
 }

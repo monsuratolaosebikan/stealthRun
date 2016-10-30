@@ -79,10 +79,10 @@ function ($scope, $stateParams) {
     
 }])
    
-.controller('mapRouteCtrl', ['$scope', '$stateParams', '$ionicLoading', '$compile', // The following is the constructor function for this page's controller. See https://docs.angularjs.org/guide/controller
+.controller('mapRouteCtrl', ['$scope', '$stateParams', '$ionicLoading', // The following is the constructor function for this page's controller. See https://docs.angularjs.org/guide/controller
 // You can include any angular dependencies as parameters for this function
 // TIP: Access Route Parameters for your page via $stateParams.parameterName
-function ($scope, $stateParams, $ionicLoading, $compile) {
+function ($scope, $stateParams, $ionicLoading) {
 
     $scope.$on('ionicView.enter', function() {
         initialize();
@@ -100,7 +100,7 @@ function ($scope, $stateParams, $ionicLoading, $compile) {
         
         //Marker + infowindow + angularjs compiled ng-click
         var contentString = "<div><a ng-click='clickTest()'>Click me!</a></div>";
-        var compiled = $compile(contentString)($scope);
+        //var compiled = $compile(contentString)($scope);
 
         var infowindow = new google.maps.InfoWindow({
           content: compiled[0]
