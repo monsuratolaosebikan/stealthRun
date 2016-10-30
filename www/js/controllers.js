@@ -74,7 +74,7 @@ function ($scope, $stateParams) {
         //do your stuff after leaving
         var topPanel = $("#topPanel");
         var $bottomPanel = $("#bottomPanel");
-        $topPanel.slideDown(); 
+        topPanel.slideDown(4000); 
     });
     
 }])
