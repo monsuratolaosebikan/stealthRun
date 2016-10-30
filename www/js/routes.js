@@ -8,9 +8,7 @@ angular.module('app.routes', [])
   // Each state's controller can be found in controllers.js
   $stateProvider
     
-  
-
-      .state('homePage', {
+  .state('homePage', {
     url: '/home',
     templateUrl: 'templates/homePage.html',
     controller: 'homePageCtrl'
@@ -26,12 +24,6 @@ angular.module('app.routes', [])
     url: '/challengeType',
     templateUrl: 'templates/challengeTypePage.html',
     controller: 'challengeTypePageCtrl'
-  })
-
-  .state('tabsController', {
-    url: '/page1',
-    templateUrl: 'templates/tabsController.html',
-    abstract:true
   })
 
   .state('login', {
