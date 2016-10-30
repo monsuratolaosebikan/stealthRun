@@ -70,15 +70,19 @@ function ($scope, $stateParams, $state, $firebaseAuth) {
 // You can include any angular dependencies as parameters for this function
 // TIP: Access Route Parameters for your page via $stateParams.parameterName
 function ($scope, $stateParams) {
-
-
+    $scope.$on('$ionicView.enter', function() {
+        //do your stuff after leaving
+        var topPanel = $("#topPanel");
+        var $bottomPanel = $("#bottomPanel");
+        $topPanel.slideDown(); 
+    });
+    
 }])
    
 .controller('mapRouteCtrl', ['$scope', '$stateParams', // The following is the constructor function for this page's controller. See https://docs.angularjs.org/guide/controller
 // You can include any angular dependencies as parameters for this function
 // TIP: Access Route Parameters for your page via $stateParams.parameterName
 function ($scope, $stateParams) {
-
 
 }])
    

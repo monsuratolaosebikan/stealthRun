@@ -9730,3 +9730,19 @@ a.button {
   opacity: 0;
   -webkit-transition-duration: 0s;
   transition-duration: 0s; }
+
+#homePage-button17 {
+  width: 49%;
+  float: left; }
+
+#homePage-button18 {
+  width: 49%;
+  float: right; }
+
+#PounceProfile {
+  border: 5px solid;
+  border-radius: 50%;
+  width: 60%; }
+
+#SpaceHome {
+  height: 60px; }
