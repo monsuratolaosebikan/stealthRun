@@ -9747,6 +9747,10 @@ a.button {
 #SpaceHome {
   height: 60px; }
 
+#map {
+  width: 100%;
+  height: 100%; }
+
 #sampleMap {
   width: 100%;
   height: auto; }
